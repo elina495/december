@@ -1,0 +1,165 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:beige;
+    margin:0;
+    padding: 0;
+    color: black;
+}
+.header{
+    position: relative;
+    background-color:black;
+    width:100%;
+    padding: 1 rem 9% ;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    filter: drop-shadow(10px);
+    z-index: 100;
+    margin-top: 20px;
+    }
+
+.logo{
+    color: orangered;
+    font-weight: 800;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+ .logo:hover{
+        color: azure;
+        text-shadow:0 0 25px orangered ,
+                    0 0 50 px orangered;
+        transform:scale(1.1);
+}
+
+ span{
+        color: orangered;
+ }
+
+
+.navbar a{
+    font-size: 3rem;
+    color: azure;
+    font-weight: 400;
+    border-bottom: 3px solid transparent;
+    transition: 0.3 ease;
+    margin-left: 3rem;
+    text-decoration: none;
+    /* float: right; */
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color:orangered ;
+    border-bottom: 3px solid orangered;
+}
+
+.home h1{
+   font-size: 4rem; 
+   color: rgb(20, 56, 87);
+   margin-bottom: 20px;
+   /* height: 70%; */
+}
+.home{
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    gap: 7rem;
+    margin-left: 30%;
+    height: 70%;
+}
+
+.home p{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 60px;
+    /* height: 65vh; */
+}
+
+.img img{ 
+   border-radius: 50%;
+   max-width: 100%;
+   float: left;
+   border: 7px solid lightblue ;
+}
+.img img:hover{
+    border: 7px solid maroon;
+}
+
+.about{
+    padding: 60px;
+    /* border: 2px solid #ddd ; */
+    height: 50vh;
+    text-align: center;
+    font-size: 4 rem;
+}
+.about h2{
+    font-size: 4rem; 
+   color: rgb(20, 56, 87);
+margin-bottom: 20px;
+}
+.about p{
+    font-size:3rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 65px;
+    margin-right: 45%;
+}
+.about-IMG{   
+    /* margin-bottom: 450px; */
+   border-radius: 50%;
+   max-width: 100%;
+   float: right;
+   border: 5px solid brown;
+}
+.about-IMG:hover{
+    border: 5px solid blue;
+}
+.contact{
+    height:80vh;
+}
+.contact h3{
+    font-size:5rem;
+   color: rgb(20, 56, 87);
+   margin-bottom: 20px;
+   text-align: center;
+}
+.form{
+    /* border-radius: 20px; */
+    /* box-sizing:  20px; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 35px;
+  text-align: center;
+  font-size: large;
+  background-origin:  10px;
+  /* padding: 4em; */
+}
+.education{
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.Education h2{
+font-size: 4rem;
+color: rgb(20, 56, 87);
+/* margin-bottom: 20px; */
+ text-align: center; 
+/* left:50%; */
+}
+.Education p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 65px;
+    font-size: 3rem;
+    text-align: center; 
+}
+button{
+    font-size: 1rem;
+    font-weight: 400;
+    color:orangered;
+    text-align: center;
+}
+
+
